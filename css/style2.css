@@ -97,7 +97,12 @@ body, html{
     max-width: 200px;
     text-align: center;
 }
-
+.low{
+    width: 250px; height: 100px; text-align: center; font-size: 16x; margin: 0 auto; line-height: 50px;
+}
+.low a{
+    float: left; margin: 10px; padding: 10px;
+}
 
 /* logo */
 .logo{
@@ -209,8 +214,11 @@ body, html{
     }
 }
 @media (max-width:686px ) {
-        .nav1,.nav2{display: none;}
+        .nav1,.nav2,.top a{display: none;}
         .logo{margin-top: 8px;}
+        .hamburgur{
+            margin-top: 10px;
+        }
         .hamburgur,.menu,.menu a{
             display: block;
         }
