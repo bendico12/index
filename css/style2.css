@@ -74,6 +74,8 @@ body, html{
     padding-top: 120px;
     transition: 0.4s;
     z-index: -1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
     
 }
 
@@ -90,6 +92,8 @@ body, html{
     margin-top: 20px;
     height: 30px;
     line-height: 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 .menu_1{
     margin: 0 auto;
@@ -102,6 +106,8 @@ body, html{
 }
 .low a{
     float: left; margin: 10px; padding: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 
 /* logo */
@@ -435,6 +441,9 @@ body, html{
     text-align: center;
     color: #fff;
     z-index: 9900;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+
 }
 
 
@@ -446,6 +455,8 @@ body, html{
   border-top: 15px solid rgb(255, 255, 255);
   margin: 10px auto;
   animation: bounce 1.5s infinite;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 
 @keyframes bounce {
